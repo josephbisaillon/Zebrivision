@@ -1,0 +1,68 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MultiplictionKangaroo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    x:Class="MultiplictionKangaroo.MainPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle HorizontalAlignment="Left" Height="600" Margin="10,104,0,0" Stroke="White" VerticalAlignment="Top" Width="253"/>
+        <Rectangle HorizontalAlignment="Left" Height="600" Margin="1103,104,0,0" Stroke="White" VerticalAlignment="Top" Width="253"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="45" Margin="1160,227,0,0" TextWrapping="Wrap" Text="Level" VerticalAlignment="Top" Width="124" FontSize="50" FontWeight="Bold"/>
+        <TextBlock x:Name="levelTextBox" HorizontalAlignment="Left" Height="45" Margin="1182,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" FontSize="35">
+        	<Run Text="Level"/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="45" Margin="354,709,0,0" TextWrapping="Wrap" Text="Tap the Number Divisible by" VerticalAlignment="Top" Width="462" FontSize="35"/>
+        <TextBlock x:Name="multiplesTextBox" HorizontalAlignment="Left" Margin="821,709,0,0" TextWrapping="Wrap" Text="NUMBER" VerticalAlignment="Top" Height="36" FontSize="35"/>
+        <Image HorizontalAlignment="Left" Height="600" Margin="268,104,0,0" VerticalAlignment="Top" Width="800" Source="Assets/6 Tileable Black And White Checkered Textures (5).jpg" Stretch="Fill"/>
+        <TextBlock x:Name="checkerNumberBox" HorizontalAlignment="Left" Height="83" Margin="293,130,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox1" HorizontalAlignment="Left" Height="83" Margin="509,130,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox2" HorizontalAlignment="Left" Height="83" Margin="702,130,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox3" HorizontalAlignment="Left" Height="83" Margin="899,130,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox4" HorizontalAlignment="Left" Height="83" Margin="293,296,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox8" HorizontalAlignment="Left" Height="83" Margin="293,434,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox12" HorizontalAlignment="Left" Height="83" Margin="293,600,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox5" HorizontalAlignment="Left" Height="83" Margin="509,296,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox6" HorizontalAlignment="Left" Height="83" Margin="702,296,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox7" HorizontalAlignment="Left" Height="83" Margin="899,296,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox9" HorizontalAlignment="Left" Height="83" Margin="509,434,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox10" HorizontalAlignment="Left" Height="83" Margin="702,434,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox11" HorizontalAlignment="Left" Height="83" Margin="899,434,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox13" HorizontalAlignment="Left" Height="83" Margin="509,600,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox14" HorizontalAlignment="Left" Height="83" Margin="702,600,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Foreground="Black" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock x:Name="checkerNumberBox15" HorizontalAlignment="Left" Height="83" Margin="899,600,0,0" TextWrapping="Wrap" Text="233" VerticalAlignment="Top" Width="137" FontSize="70" Tapped="checkNumberBox_Tapped"/>
+        <TextBlock HorizontalAlignment="Left" Height="57" Margin="29,130,0,0" TextWrapping="Wrap" Text="Zebra Lives" VerticalAlignment="Top" Width="204" FontSize="40" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="54" Margin="1152,443,0,0" TextWrapping="Wrap" Text="Score" VerticalAlignment="Top" Width="145" FontSize="50" FontWeight="Bold"/>
+        <TextBlock x:Name="scoreTextBox" HorizontalAlignment="Left" Height="54" Margin="1160,502,0,0" TextWrapping="Wrap" Text="score" VerticalAlignment="Top" Width="137" FontSize="50"/>
+
+        <Image x:Name="life1Image" HorizontalAlignment="Left" Height="155" Margin="29,187,0,0" VerticalAlignment="Top" Width="204" Source="Assets/fox.png" Stretch="Fill"/>
+        <Image x:Name="life2Image" HorizontalAlignment="Left" Height="155" Margin="29,347,0,0" VerticalAlignment="Top" Width="204" Source="Assets/fox.png" Stretch="Fill"/>
+        <Image x:Name="life3Image" HorizontalAlignment="Left" Height="155" Margin="29,502,0,0" VerticalAlignment="Top" Width="204" Source="Assets/fox.png" Stretch="Fill"/>
+        <TextBlock x:Name="testTextBlock" HorizontalAlignment="Left" Margin="960,22,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="103" Width="358"/>
+        <Image x:Name="imageBox" HorizontalAlignment="Left" Height="102" Margin="293,125,0,0" VerticalAlignment="Top" Width="137" Stretch="Fill"/>
+        <Image x:Name="imageBox1" HorizontalAlignment="Left" Height="102" Margin="493,125,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox2" HorizontalAlignment="Left" Height="102" Margin="702,125,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image HorizontalAlignment="Left" Height="102" Margin="899,125,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox4" HorizontalAlignment="Left" Height="102" Margin="293,277,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox8" HorizontalAlignment="Left" Height="102" Margin="293,415,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox12" HorizontalAlignment="Left" Height="102" Margin="293,581,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox5" HorizontalAlignment="Left" Height="102" Margin="493,277,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox9" HorizontalAlignment="Left" Height="102" Margin="493,415,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox13" HorizontalAlignment="Left" Height="102" Margin="493,581,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox6" HorizontalAlignment="Left" Height="102" Margin="702,277,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox10" HorizontalAlignment="Left" Height="102" Margin="702,415,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox14" HorizontalAlignment="Left" Height="102" Margin="702,581,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox3" HorizontalAlignment="Left" Height="102" Margin="899,125,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox7" HorizontalAlignment="Left" Height="102" Margin="899,277,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox11" HorizontalAlignment="Left" Height="102" Margin="899,415,0,0" VerticalAlignment="Top" Width="137"/>
+        <Image x:Name="imageBox15" HorizontalAlignment="Left" Height="102" Margin="899,581,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="resetButton" Content="Restart Game" HorizontalAlignment="Left" Height="54" Margin="1135,629,0,0" VerticalAlignment="Top" Width="183" Click="resetButton_Click"/>
+
+    </Grid>
+</Page>
